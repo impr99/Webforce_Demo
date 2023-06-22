@@ -1,0 +1,46 @@
+input{
+    
+    padding: 10px;
+    margin: 20px;
+    border-radius: 6px;
+    border: 2px solid #212121;
+    
+}
+
+button{
+    padding: 5px;
+     margin: 13px;
+     border-radius: 4px;
+     background-color: lightblue;
+     border:1px solid black;
+    
+}
+.modal_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal_child{
+    width: 200px;
+    height: 250px;
+    background-color:white;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px lightgray;
+    position: relative;
+    bottom: 450px;
+    left: 500px;
+}
+
+span b{
+    cursor: pointer;
+}
+.pagination{
+    margin-top: 10px;
+    text-align: center;
+}
+.pagination span{
+    margin: 2px;
+    border: 1px solid black;
+}
